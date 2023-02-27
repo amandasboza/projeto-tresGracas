@@ -6,7 +6,7 @@ header {
     width: 100%;
     height: 80px;
     
-    background-color: black;
+    background-color: #f2dcd168;
 }
 
 menu {
@@ -15,14 +15,13 @@ menu {
     margin: 0;
     padding-inline-start: 0;
 
-
-    background-color: blueviolet;
+    background-color: #F2DCD1;
 }
 
 img {
-    position:absolute;
-    width:100%;
-    height:100%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
     margin-left: 100%;
 
     -webkit-transition: margin-left 500ms ease-in;
@@ -32,12 +31,42 @@ img {
 }
 
 #slider {
-    overflow:hidden;
+    overflow: hidden;
     position: relative;
     width: 100%;
-    height: 450px;
+    height: 650px;
 }
 
 .active {
-    margin-left:100%;
+    margin-left: 0;
+}
+
+#newsletter {
+    width: 100%;
+    height: 370px;
+
+    background-color: #D18D8D;
+    background-image: url(/img/backimage.png);
+
+    font-family: 'Domine', serif;
+}
+
+#newsletter p {
+    padding: 10px 0 0 0;
+    margin: 0;
+
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#newsletter h1 {
+    padding: 45px 0 0 0;
+    margin: 0;
+
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    color: white;
 }
