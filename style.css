@@ -11,18 +11,18 @@ header {
 
 menu {
     width: 100%;
-    height: 60px;
+    height: 45px;
     margin: 0;
     padding-inline-start: 0;
 
     background-color: #F2DCD1;
 }
 
-img {
+#slider img {
     position: absolute;
     width: 100%;
     height: 100%;
-    margin-left: 100%;
+    margin-left: 0;
 
     -webkit-transition: margin-left 500ms ease-in;
     -moz-transition: margin-left 500ms ease-in;
@@ -34,19 +34,62 @@ img {
     overflow: hidden;
     position: relative;
     width: 100%;
-    height: 650px;
+    height: 550px;
 }
 
 .active {
     margin-left: 0;
 }
 
+#project {
+    width: 100%;
+    height: 490px;
+    display: flex;
+
+    background-color: white;
+}
+
+#project img {
+    padding: 30px 50px;
+    padding-left: 100px;
+    width: 350px;
+    height: 420px;
+
+    position: inherit;
+}
+
+.letter { 
+    padding: 50px 95px 65px 65px;
+
+    font-family: 'Domine', serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#historybutton {
+    width: 540px;
+    height: 33px;
+    margin-top: 15px;
+
+    color: white;
+    font-size: 17px;
+    background-color: #8B0000;
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: none;
+}
+
 #newsletter {
     width: 100%;
-    height: 370px;
+    height: 260px;
 
     background-color: #D18D8D;
     background-image: url(/img/backimage.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
 
     font-family: 'Domine', serif;
 }
@@ -56,16 +99,16 @@ img {
     padding-top: 15px;
 
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
 }
 
 #newsletter h1 {
     margin: 0;
-    padding-top: 65px;
+    padding-top: 55px;
 
     text-align: center;
-    font-size: 50px;
+    font-size: 29px;
     letter-spacing: 4px;
     color: white;
 }
@@ -74,7 +117,7 @@ form {
     display: flex;
     margin: auto;
     width: 50%;
-    padding: 35px;
+    padding: 31px;
 
     justify-content: center;
 }
@@ -84,29 +127,128 @@ form {
 }
 
 .newsform {
-    width: 360px;
-    height: 35px;
-    padding: 20px;
+    width: 330px;
+    height: 15px;
+    padding: 12px;
     position:relative;
 
-    font-size: 25px;
+    font-size: 15px;
     border-color: #8B0000;
-    border-width: 3px;
+    border-width: 1.5;
     border-radius: 25px;
-    border-style:dotted;
 }
 
-button {
+#form-b button {
     width: 140px;
-    height: 80px;
+    height: 42px;
     margin-left: -40px;
-    padding-left: 35px;
+    padding-left: 25px;
 
 
     color: white;
-    font-size: 25px;
+    font-size: 17px;
     background-color: #8B0000;
     border-width: 3px;
     border-radius: 25px;
     border-style: none;
+}
+
+#product-w {
+    width: 100%;
+    height: 890px;
+    display: block;
+
+    color: white;
+    background-color: #04426f;
+}
+
+#product-w h1{
+    margin: 0;
+    padding-left: 85px;
+    padding-top: 55px;
+}
+
+#product-w p {
+    justify-content: center;
+    text-align: justify;
+
+    line-height: 1.5;
+}
+
+.w-style-a {
+    display: flex;
+    flex-direction: row-reverse;
+
+    padding: 25px 85px 40px 85px;
+}
+
+.w-style-a img {
+    position: relative;
+}
+
+.w-style-a p {
+    padding-right: 100px;
+}
+
+.w-style-a button {
+    width: 500px;
+    height: 33px;
+    margin-top: 15px;
+   
+    color: white;
+    font-size: 14px;
+    background-color: #04436F;;
+    border-color: white;
+    border-width: 1px;
+    border-radius: px;
+    border-style:solid;
+}
+
+#w-style-c {
+    flex-direction: row;
+}
+
+#w-style-c p {
+    padding-right: 10px;
+}
+
+#w-style-d {
+    padding-left:  85px;
+}
+
+ 
+.lightwidget-widget {
+    width:1235px;
+    height: 120px;
+    margin: 25px 334px;
+
+    border:0;
+    overflow:hidden;
+} 
+
+
+#instagram {
+    width: 100%;
+    height: 390px;
+}
+
+#midia {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+    gap: 50px;
+
+    background-color: #F29D36;
+}
+
+#midia i {
+    font-size: 45px;
+    height: 45px;
+    padding: 22px;
+
+    text-align: center;
+    color: #04436F;
 }
