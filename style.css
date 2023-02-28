@@ -52,21 +52,61 @@ img {
 }
 
 #newsletter p {
-    padding: 10px 0 0 0;
     margin: 0;
+    padding-top: 15px;
 
     text-align: center;
     font-size: 25px;
-    letter-spacing: 4px;
     color: white;
 }
 
 #newsletter h1 {
-    padding: 45px 0 0 0;
     margin: 0;
+    padding-top: 65px;
 
     text-align: center;
     font-size: 50px;
     letter-spacing: 4px;
     color: white;
+}
+
+form {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 35px;
+
+    justify-content: center;
+}
+
+#form-a {
+    padding-right: 10px;
+}
+
+.newsform {
+    width: 360px;
+    height: 35px;
+    padding: 20px;
+    position:relative;
+
+    font-size: 25px;
+    border-color: #8B0000;
+    border-width: 3px;
+    border-radius: 25px;
+    border-style:dotted;
+}
+
+button {
+    width: 140px;
+    height: 80px;
+    margin-left: -40px;
+    padding-left: 35px;
+
+
+    color: white;
+    font-size: 25px;
+    background-color: #8B0000;
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: none;
 }
