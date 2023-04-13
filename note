@@ -1,4 +1,24 @@
- 
+<div class="dropdown">
+    <button class="menu-button"></button>
+    <div class="dropdown-content">
+        <a href="#">Opção 1</a>
+        <a href="#">Opção 2</a>
+        <a href="#">Opção 3</a>
+    </div>
+</div>
+<div id="logo">
+    <h1 id="tres">Três</h1>
+    <h1 id="gracas">Graças</h1>
+    <h1 id="consultoria">Consultoria</h1>
+</div>
+    
+<div class="dropdown-content">
+    <a href="#">Opção 1</a>
+    <a href="#">Opção 2</a>
+    <a href="#">Opção 3</a>
+</div>
+    
+    
     <header> 
         <div id="logo"></div>
     </header>

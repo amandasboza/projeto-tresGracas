@@ -13,7 +13,7 @@
          function toggleMenu() {
             var menuContent = document.querySelector('.dropdown-content');
             var menuToggle = document.querySelector('.dropdown-toggle');
-            menuContent.style.display = (menuContent.style.display === 'block') ? 'none' : 'block';
+            menuContent.style.display = (menuContent.style.display === 'block') ? 'none' : 'grid';
             menuToggle.classList.toggle('close');
 
         }

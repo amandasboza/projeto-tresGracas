@@ -5,27 +5,42 @@ body {
 header {
     width: 100%;
     height: 250px;
-    display: flex;
-    grid-auto-flow: row;
+    display: block;
     
-    background-color: #D18D8D;
 }
 
+main img {
+    width: 110px;
+    margin-left: 90px;
+    margin-top: 12px;
+}
+
+main {
+    display: grid;
+    grid-auto-flow: column;
+    width: 100%;
+    height: 140px;
+
+    background-color: #FFF7EA;
+}
 /* Estilo básico para o menu suspenso */
 .dropdown {
-    width: 670px;
-    height: 250px;
-    display: inline-block;
+    width: 100%;
+    height: 140px;
+    text-align: right;    
 }
 
 /* Parte do menu que aparece quando clica */
-
 .dropdown-content {
     display: none;
     position: absolute;
+    text-align: right;
+    width: 560px;
 
-    margin-left: 290px;
-    background-color: #D18D8D;
+    margin-left: 230px;
+    margin-top: -23px;
+
+    background-color: #04436F;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -41,15 +56,13 @@ header {
 
 /* Parte do menu que aparece quando clica */
 .dropdown-content a {
-    width: 360px;
-    height: 120px;
-    display: list-item;
-
+    text-align: left;
     text-decoration: none;
+    
+    margin-right: 110px;
 
     color: white;
-    text-align: center;
-    line-height: 120px;
+    line-height: 40px;
 }
 
 .dropdown-content a:hover {
@@ -63,51 +76,34 @@ header {
     transform: translate(-50%, -50%);
 }
 
-/* Estilo do símbolo de fechar (X) quando o botão está ativo */
-    .menu-button.active::before {
-    content: "\2715";
-}
-
 .menu-button {
-    margin: 124px;
-    margin-left: 460px;
+    margin-top: 70px;
+    margin-right: 90px;
     border: none;
 
-    background-color: #D18D8D;
-    color: white;
+    background-color: transparent;
+    color: #04436F;
 
-    font-size: 35px;
-    cursor: pointer;
+    font-size: 28px;
     position: relative;
 }
 
-header h1 {
-    margin: 0;
-    height: 55px;
-    font-weight: 700;
-    font-size: 70px;
-    font-family: 'Bebas Neue', cursive;
+nav {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+
+    background-color: #04436F;
 }
 
-#logo {
-    padding: 25px;
-    margin-left: 50px;
+.navlist {
+    color: white;
+    text-align: center;
+    line-height: 45px;
 }
 
-#tres {
-    color: #04436F;
-    text-decoration: line-through;
-}
-
-#gracas {
-    margin-left: 50px;
-    color: #F29D36;
-    text-decoration:dashed;
-
-
-}
-
-#consultoria {  
-    margin-left: 100px;
-    color: #F2DCD1
+.navlist a {
+    padding: 12px;
+    color: white;
+    text-decoration: none;
 }
