@@ -4,263 +4,110 @@ body {
 
 header {
     width: 100%;
-    height: 80px;
-    
-    background-color: #f2dcd168;
-}
-
-menu {
-    width: 100%;
-    height: 45px;
-    margin: 0;
-    padding-inline-start: 0;
-
-    background-color: #F2DCD1;
-}
-
-#slider img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin-left: 0;
-
-    -webkit-transition: margin-left 500ms ease-in;
-    -moz-transition: margin-left 500ms ease-in;
-    -o-transition: margin-left 500ms ease-in;
-    transition: margin-left 500ms ease-in;
-}
-
-#slider {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    height: 550px;
-}
-
-.active {
-    margin-left: 0;
-}
-
-#project {
-    width: 100%;
-    height: 490px;
+    height: 250px;
     display: flex;
-
-    background-color: white;
+    grid-auto-flow: row;
+    
+    background-color: #D18D8D;
 }
 
-#project img {
-    padding: 30px 50px;
-    padding-left: 100px;
-    width: 350px;
-    height: 420px;
-
-    position: inherit;
+/* Estilo básico para o menu suspenso */
+.dropdown {
+    width: 670px;
+    height: 250px;
+    display: inline-block;
 }
 
-.letter { 
-    padding: 50px 95px 65px 65px;
+/* Parte do menu que aparece quando clica */
 
-    font-family: 'Domine', serif;
-    font-size: 16px;
-    text-align: justify;
-    line-height: 1.5;
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+    margin-left: 290px;
+    background-color: #D18D8D;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+        
+.dropdown-toggle {
+    cursor: pointer;
 }
 
-#historybutton {
-    width: 540px;
-    height: 33px;
-    margin-top: 15px;
+.dropdown:hover .dropdown-content {
+    display: block;
+        }
+
+/* Parte do menu que aparece quando clica */
+.dropdown-content a {
+    width: 360px;
+    height: 120px;
+    display: list-item;
+
+    text-decoration: none;
 
     color: white;
-    font-size: 17px;
-    background-color: #8B0000;
-    border-width: 3px;
-    border-radius: 25px;
-    border-style: none;
+    text-align: center;
+    line-height: 120px;
 }
 
-#newsletter {
-    width: 100%;
-    height: 260px;
+.dropdown-content a:hover {
+    background-color:#D18D8D;
+}
+
+/* Estilo do símbolo de menu (três linhas) */
+.menu-button::before {
+    content: "\2630";
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+/* Estilo do símbolo de fechar (X) quando o botão está ativo */
+    .menu-button.active::before {
+    content: "\2715";
+}
+
+.menu-button {
+    margin: 124px;
+    margin-left: 460px;
+    border: none;
 
     background-color: #D18D8D;
-    background-image: url(/img/backimage.png);
-    background-position: unset;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: center;
-
-    font-family: 'Domine', serif;
-}
-
-#newsletter p {
-    margin: 0;
-    padding-top: 15px;
-
-    text-align: center;
-    font-size: 18px;
     color: white;
-}
 
-#newsletter h1 {
-    margin: 0;
-    padding-top: 55px;
-
-    text-align: center;
-    font-size: 29px;
-    letter-spacing: 4px;
-    color: white;
-}
-
-form {
-    display: flex;
-    margin: auto;
-    width: 50%;
-    padding: 31px;
-
-    justify-content: center;
-}
-
-#form-a {
-    padding-right: 10px;
-}
-
-.newsform {
-    width: 330px;
-    height: 15px;
-    padding: 12px;
-    position:relative;
-
-    font-size: 15px;
-    border-color: #8B0000;
-    border-width: 1.5;
-    border-radius: 25px;
-}
-
-#form-b button {
-    width: 140px;
-    height: 42px;
-    margin-left: -40px;
-    padding-left: 25px;
-
-
-    color: white;
-    font-size: 17px;
-    background-color: #8B0000;
-    border-width: 3px;
-    border-radius: 25px;
-    border-style: none;
-}
-
-#product-w {
-    width: 100%;
-    height: 890px;
-    display: block;
-
-    color: white;
-    background-color: #04426f;
-}
-
-#product-w h1{
-    margin: 0;
-    padding-left: 85px;
-    padding-top: 55px;
-}
-
-#product-w p {
-    justify-content: center;
-    text-align: justify;
-
-    line-height: 1.5;
-}
-
-.w-style-a {
-    display: flex;
-    flex-direction: row-reverse;
-
-    padding: 25px 85px 40px 85px;
-}
-
-.w-style-a img {
+    font-size: 35px;
+    cursor: pointer;
     position: relative;
 }
 
-.w-style-a p {
-    padding-right: 100px;
+header h1 {
+    margin: 0;
+    height: 55px;
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'Bebas Neue', cursive;
 }
 
-.w-style-a button {
-    width: 500px;
-    height: 33px;
-    margin-top: 15px;
-   
-    color: white;
-    font-size: 14px;
-    background-color: #04436F;;
-    border-color: white;
-    border-width: 1px;
-    border-radius: px;
-    border-style: solid;
+#logo {
+    padding: 25px;
+    margin-left: 50px;
 }
 
-#w-style-c {
-    flex-direction: row;
-}
-
-#w-style-c p {
-    padding-right: 10px;
-}
-
-#w-style-d {
-    padding-left:  85px;
-}
-
- 
-.lightwidget-widget {
-    width:1235px;
-    height: 120px;
-    margin: 25px 334px;
-
-    border:0;
-    overflow: hidden;
-} 
-
-
-#instagram {
-    width: 100%;
-    height: 390px;
-}
-
-#midia {
-    width: 100%;
-    height: 90px;
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-
-    gap: 50px;
-
-    background-color: #F29D36;
-}
-
-#midia i {
-    font-size: 45px;
-    height: 45px;
-    padding: 22px;
-
-    text-align: center;
+#tres {
     color: #04436F;
+    text-decoration: line-through;
 }
 
-footer {
-    width: 100%;
-    height: 60px;
-    display: flex;
-    justify-content: center;
+#gracas {
+    margin-left: 50px;
+    color: #F29D36;
+    text-decoration:dashed;
 
-    font-family: 'Domine', serif;
-    font-size: 12px;
-    line-height: 39px;
-    color: grey;
+
+}
+
+#consultoria {  
+    margin-left: 100px;
+    color: #F2DCD1
 }

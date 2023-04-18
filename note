@@ -1,0 +1,332 @@
+ 
+    <header> 
+        <div id="logo"></div>
+    </header>
+
+    <menu></menu>
+
+    <div id="slider">
+        <img src="/img/flipper-a.png" class="active">
+        <img src="/img/flipper-b.png">
+        <img src="/img/flipper-c.png">
+    </div>
+
+    <div id="project">
+        <img src="./img/profile.png" alt="profile">
+        <div class="letter">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <p>Sapiente, et tempora odio quos inventore earum ipsa natus assumenda vel. Aspernatur non maxime expedita excepturi nam cupiditate minima consequuntur quidem consectetur!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo aliquid, alias iure minima at deleniti ratione sunt est eaque similique quos cupiditate minus porro a, dolor nihil ipsum nisi rem. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, incidunt. Laborum tenetur repellat natus architecto maiores quasi fuga? Nisi magni veritatis recusandae inventore autem vitae amet tempore culpa officiis laboriosam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos alias nihil, incidunt rerum eum eveniet ipsum. Natus, illum voluptatem ipsum cum vero quaerat distinctio sint totam soluta corrupti quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iusto mollitia commodi! Quae iusto eius repudiandae eveniet rerum est animi expedita dignissimos ducimus error corporis assumenda illum, delectus, impedit et? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo eligendi iure, reprehenderit excepturi neque laborum deserunt laboriosam at quas quae alias! Asperiores sunt. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti qui velit, ut accusamus beatae, dolore nulla illum voluptates error praesentium laudantium sequi porro cum distinctio sit suscipit esse at quidem?</p>
+            <button type="button" id="historybutton">História do três graças</button>
+        </div>
+    </div>
+
+    <div id="newsletter">
+        <h1>Fique por dentro!</h1>
+        <p>Receba conteúdos, notícias, promoções e novidades da Três Graças!</p>
+        <form>
+            <div id="form-a">
+                <input type="text" name="nome" placeholder="Nome" method="get" class="newsform" required>
+            </div>
+            <div id="form-b">
+                <input type="email" name="email" placeholder="E-mail" method="get" class="newsform" required>
+                <button type="submit" name="enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="product-w">
+        <h1>Lorem ipsum dolor sit</h1>
+        <div class="w-style-a">
+            <img src="/img/label-a.png">
+            <div>
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi repellat architecto nam perspiciatis harum eos natus fugiat, porro rem animi explicabo illum iusto voluptate repellendus nobis, nihil accusantium exercitationem consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nulla vitae aliquam impedit temporibus ad eligendi exercitationem reprehenderit quaerat voluptate et necessitatibus, animi quae sunt rem? Eaque ipsum excepturi quasi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi totam praesentium ullam esse omnis. Ratione, illum! Incidunt officia, adipisci rem quos tempore voluptatem autem dignissimos, eum officiis dolore asperiores vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptates ad voluptas at esse veritatis maiores, quae repudiandae doloribus rem voluptatum deleniti reprehenderit sequi, praesentium natus tempore. Dicta, nostrum quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed dolorum facere illum neque recusandae consectetur! Ratione doloribus fuga, culpa, unde adipisci delectus in quidem voluptate, provident iste tenetur officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid minus exercitationem at quod inventore quam maxime perferendis consequuntur, vero quibusdam rem quisquam illum quos velit. Exercitationem eligendi in cum.</p>
+                <button type="button"><i class="fa-brands fa-instagram"></i> Lorem ipsum dolor sit</button>
+            </div>
+        </div>
+        <div class="w-style-a" id="w-style-c">
+            <img src="/img/label-b.png">
+            <div id="w-style-d">
+                <h2>Lorem ipsum dolor sit</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi repellat architecto nam perspiciatis harum eos natus fugiat, porro rem animi explicabo illum iusto voluptate repellendus nobis, nihil accusantium exercitationem consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. In nulla vitae aliquam impedit temporibus ad eligendi exercitationem reprehenderit quaerat voluptate et necessitatibus, animi quae sunt rem? Eaque ipsum excepturi quasi. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi totam praesentium ullam esse omnis. Ratione, illum! Incidunt officia, adipisci rem quos tempore voluptatem autem dignissimos, eum officiis dolore asperiores vero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptates ad voluptas at esse veritatis maiores, quae repudiandae doloribus rem voluptatum deleniti reprehenderit sequi, praesentium natus tempore. Dicta, nostrum quidem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione sed dolorum facere illum neque recusandae consectetur! Ratione doloribus fuga, culpa, unde adipisci delectus in quidem voluptate, provident iste tenetur officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid minus exercitationem at quod inventore quam maxime perferendis consequuntur, vero quibusdam rem quisquam illum quos velit. Exercitationem eligendi in cum.</p>
+                <button type="button"><i class="fa-brands fa-instagram"></i> Lorem ipsum dolor sit</button>
+            </div>
+         </div>
+    </div>
+
+    <div id="instagram">
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5b7af0aba41156dc922a4b6ad38c2b39.html" scrolling="no" allowtransparency="true" class="lightwidget-widget"></iframe>
+    </div>
+
+    <div id="product-y"></div>
+
+    <div id="midia">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-regular fa-envelope"></i>
+    </div>
+
+    <div id="map"></div>
+
+    <footer>
+       <p>&copy; 2023 TRÊS GRAÇAS CONSULTORIA </p>
+    </footer>
+
+
+    
+menu {
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    padding-inline-start: 0;
+
+    background-color: #F2DCD1;
+}
+
+#slider img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+
+    -webkit-transition: margin-left 500ms ease-in;
+    -moz-transition: margin-left 500ms ease-in;
+    -o-transition: margin-left 500ms ease-in;
+    transition: margin-left 500ms ease-in;
+}
+
+#slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 550px;
+}
+
+.active {
+    margin-left: 0;
+}
+
+#project {
+    width: 100%;
+    height: 490px;
+    display: flex;
+
+    background-color: white;
+}
+
+#project img {
+    padding: 30px 50px;
+    padding-left: 100px;
+    width: 350px;
+    height: 420px;
+
+    position: inherit;
+}
+
+.letter { 
+    padding: 50px 95px 65px 65px;
+
+    font-family: 'Domine', serif;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+#historybutton {
+    width: 540px;
+    height: 33px;
+    margin-top: 15px;
+
+    color: white;
+    font-size: 17px;
+    background-color: #8B0000;
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+#newsletter {
+    width: 100%;
+    height: 260px;
+
+    background-color: #D18D8D;
+    background-image: url(/img/backimage.png);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+
+    font-family: 'Domine', serif;
+}
+
+#newsletter p {
+    margin: 0;
+    padding-top: 15px;
+
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+#newsletter h1 {
+    margin: 0;
+    padding-top: 55px;
+
+    text-align: center;
+    font-size: 29px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+form {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 31px;
+
+    justify-content: center;
+}
+
+#form-a {
+    padding-right: 10px;
+}
+
+.newsform {
+    width: 330px;
+    height: 15px;
+    padding: 12px;
+    position:relative;
+
+    font-size: 15px;
+    border-color: #8B0000;
+    border-width: 1.5;
+    border-radius: 25px;
+}
+
+#form-b button {
+    width: 140px;
+    height: 42px;
+    margin-left: -40px;
+    padding-left: 25px;
+
+
+    color: white;
+    font-size: 17px;
+    background-color: #8B0000;
+    border-width: 3px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+#product-w {
+    width: 100%;
+    height: 890px;
+    display: block;
+
+    color: white;
+    background-color: #04426f;
+}
+
+#product-w h1{
+    margin: 0;
+    padding-left: 85px;
+    padding-top: 55px;
+}
+
+#product-w p {
+    justify-content: center;
+    text-align: justify;
+
+    line-height: 1.5;
+}
+
+.w-style-a {
+    display: flex;
+    flex-direction: row-reverse;
+
+    padding: 25px 85px 40px 85px;
+}
+
+.w-style-a img {
+    position: relative;
+}
+
+.w-style-a p {
+    padding-right: 100px;
+}
+
+.w-style-a button {
+    width: 500px;
+    height: 33px;
+    margin-top: 15px;
+   
+    color: white;
+    font-size: 14px;
+    background-color: #04436F;;
+    border-color: white;
+    border-width: 1px;
+    border-radius: px;
+    border-style: solid;
+}
+
+#w-style-c {
+    flex-direction: row;
+}
+
+#w-style-c p {
+    padding-right: 10px;
+}
+
+#w-style-d {
+    padding-left:  85px;
+}
+
+ 
+.lightwidget-widget {
+    width:1235px;
+    height: 120px;
+    margin: 25px 334px;
+
+    border:0;
+    overflow: hidden;
+} 
+
+
+#instagram {
+    width: 100%;
+    height: 390px;
+}
+
+#midia {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+
+    gap: 50px;
+
+    background-color: #F29D36;
+}
+
+#midia i {
+    font-size: 45px;
+    height: 45px;
+    padding: 22px;
+
+    text-align: center;
+    color: #04436F;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Domine', serif;
+    font-size: 12px;
+    line-height: 39px;
+    color: grey;
+}

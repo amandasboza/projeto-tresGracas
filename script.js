@@ -1,30 +1,35 @@
-var proximaImagem = 1;
-var zIndexAtual = 0;
-var imagens = document.getElementById("slider").children;
-
-function avancarImagem(){
-    imagem = imagens[proximaImagem];
-    imagem.style.zIndex = ++zIndexAtual;
-    imagem.style.marginLeft = "0%";
-
-    proximaImagem++;
-
-    if(proximaImagem >= imagens.length){
-        proximaImagem = 0;
-    }
-    setTimeout(resetarImagens,500);
-}
-
-function resetarImagens(){
-    imagemVisivel = proximaImagem -1;
-    if(imagemVisivel < 0){
-        imagemVisivel = imagens.length - 1;
-    }
-
-    for(var i = 0; i < imagens.length; i++){
-        if(i != imagemVisivel){
-            imagens[i].style.marginLeft = "100%";
+        // Função para mostrar/ocultar o menu suspenso
+        function toggleDropdown() {
+            var dropdownContent = document.querySelector('.dropdown-content');
+            dropdownContent.style.display = (dropdownContent.style.display === 'block') ? 'none' : 'block';
         }
-    }
-}
-var intervalo = setInterval(avancarImagem,4000);
+
+        // Adiciona o evento de clique no botão do menu
+        var dropdownButton = document.querySelector('.dropdown button');
+        dropdownButton.addEventListener('click', toggleDropdown);
+
+
+         // Função para mostrar/ocultar o menu
+         function toggleMenu() {
+            var menuContent = document.querySelector('.dropdown-content');
+            var menuToggle = document.querySelector('.dropdown-toggle');
+            menuContent.style.display = (menuContent.style.display === 'block') ? 'none' : 'block';
+            menuToggle.classList.toggle('close');
+
+        }
+
+        // Adiciona o evento de clique no botão de toggle do menu
+        var menuToggle = document.querySelector('.dropdown-toggle');
+        menuToggle.addEventListener('click', toggleDropdown);
+
+
+        // Adiciona o evento de clique no botão de menu
+        var menuButton = document.querySelector('.menu-button');
+        menuButton.addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        // Função para abrir o dropdown centralizado
+        function openDropdown() {
+            
+        }
