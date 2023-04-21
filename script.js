@@ -18,11 +18,6 @@
 
         }
 
-        // Adiciona o evento de clique no botão de toggle do menu
-        var menuToggle = document.querySelector('.dropdown-toggle');
-        menuToggle.addEventListener('click', toggleDropdown);
-
-
         // Adiciona o evento de clique no botão de menu
         var menuButton = document.querySelector('.menu-button');
         menuButton.addEventListener('click', function() {
@@ -33,3 +28,50 @@
         function openDropdown() {
             
         }
+
+        // func do slide
+        $(document).ready(function() {
+            var slides = $('.slide');
+            var currentSlideIndex = 0;
+            var totalSlides = slides.length;
+          
+            // Exibe o primeiro slide
+            slides.eq(currentSlideIndex).show();
+          
+            // Função para exibir próximo slide
+            function exibirProximoSlide() {
+              slides.eq(currentSlideIndex).hide();
+              currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+              slides.eq(currentSlideIndex).show();
+            }
+          
+            // Função para exibir slide anterior
+            function exibirSlideAnterior() {
+              slides.eq(currentSlideIndex).hide();
+              currentSlideIndex = (currentSlideIndex - 1 + totalSlides) % totalSlides;
+              slides.eq(currentSlideIndex).show();
+            }
+          
+            // Intervalo de tempo para exibir próximo slide (3 segundos)
+            var intervalo = setInterval(exibirProximoSlide, 50000);
+          
+            // Evento de clique do botão Próximo
+            $('#botao-proximo').on('click', function() {
+              clearInterval(intervalo);
+              exibirProximoSlide();
+              
+              // Reinicia o intervalo após cada clique
+              intervalo = setInterval(exibirProximoSlide, 50000);
+            });
+          
+            // Evento de clique do botão Anterior
+            $('#botao-anterior').on('click', function() {
+              clearInterval(intervalo);
+              exibirSlideAnterior();
+
+              // Reinicia o intervalo após cada clique
+              intervalo = setInterval(exibirProximoSlide, 50000);
+            });
+          });
+          
+    
